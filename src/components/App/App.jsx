@@ -54,7 +54,7 @@ function App() {
 
     return (
         <div className="app-container">
-            <BrowserRouter>
+            <BrowserRouter basename={import.meta.env.BASE_URL}>
                 <DataContext.Provider value={contextValue}>
                         <main>
                             <Routes>
