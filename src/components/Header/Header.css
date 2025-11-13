@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #007bff;
+    --accent-color: #ffc107;
+    --spacing-unit: 10px;
+    --border-radius: 4px;
+    --text-color: white;
+}
+
+.header-container a {
+    padding-right: 15px;
+}
+
+.header-container > * > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.header-container > * > a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header-container {
+    padding: var(--spacing-unit) calc(var(--spacing-unit) * 2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-container nav {
+    display: flex;
+    gap: calc(var(--spacing-unit) * 1.5);
+}
+
+.header-container nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: var(--border-radius);
+}
+
+.header-container nav a:hover {
+    color: var(--primary-color);
+}
+
+.header-container nav a:last-child {
+    color: white;
+    background-color: var(--primary-color);
+    padding: 0.5rem 1.25rem;
+}
+
+.header-container nav a:last-child:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.header-container h1 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0 20px 0 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.header-container button[type="button"] {
+    background: none;
+    color: var(--accent-color, #ffc107);
+    border: 1px solid var(--accent-color, #ffc107);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.2s, color 0.2s;
+    white-space: nowrap;
+}
+
+.header-container button[type="button"]:hover {
+    background-color: var(--accent-color, #ffc107);
+    color: var(--primary-color, #007bff);
+}

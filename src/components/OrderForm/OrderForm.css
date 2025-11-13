@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #007bff;
+    --card-background: #ffffff;
+    --text-color: #343a40;
+    --border-color: #dee2e6;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.order-form-container {
+    max-width: 550px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: var(--card-background);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.order-form-container h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    border-bottom: none;
+}
+
+.order-form-container form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.order-form-container input[type="text"],
+.order-form-container select,
+.order-form-container textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: var(--text-color);
+    font-family: inherit;
+    appearance: none;
+}
+
+.order-form-container input:focus,
+.order-form-container select:focus,
+.order-form-container textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.order-form-container select {
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+}
+
+.order-form-container input[type="radio"] {
+    width: auto;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+.order-form-container form > div br {
+    display: none;
+}
+
+.order-form-container form > div > input[type="radio"] + input[type="radio"] {
+    margin-left: 20px;
+}
+
+.order-form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 25px;
+    transition: background-color 0.3s;
+}
+
+.order-form-container button:hover {
+    background-color: #0056b3;
+}
+
+.order-form-container button:disabled {
+    background-color: #a0a0a0;
+    opacity: 0.6;
+    cursor: not-allowed;
+}

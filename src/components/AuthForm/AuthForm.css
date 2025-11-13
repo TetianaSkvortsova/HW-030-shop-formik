@@ -1,0 +1,97 @@
+:root {
+    --primary-color: #007bff;
+    --card-background: #ffffff;
+    --border-color: #dee2e6;
+    --shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.auth-from-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: var(--card-background);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.auth-from-container h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    border-bottom: none;
+}
+
+.auth-from-container nav {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.auth-from-container form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.auth-from-container nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.auth-from-container nav a:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.auth-from-container form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-from-container input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.auth-from-container input:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.auth-from-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.auth-from-container button:hover {
+    background-color: #0056b3;
+}
+
+.auth-from-container button:disabled {
+    background-color: #a0a0a0;
+    opacity: 0.6;
+    cursor: not-allowed;
+}

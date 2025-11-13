@@ -1,0 +1,58 @@
+.user-orders-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid var(--border-color, #dee2e6);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: var(--card-background, #ffffff);
+}
+
+.field-names,
+.order-data {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.field-names {
+    background-color: var(--primary-color, #007bff);
+    color: white;
+    font-weight: 700;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.field-names p {
+    margin: 0;
+    text-align: center;
+}
+
+.order-data {
+    border-bottom: 1px solid var(--border-color, #dee2e6);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+.order-data:nth-child(even) {
+    background-color: var(--background-light, #f8f9fa);
+}
+
+.order-data p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--text-color, #343a40);
+    text-align: center;
+}
+
+.order-data:last-child {
+    border-bottom: none;
+}
+
+.user-orders-container .no-orders {
+    text-align: center;
+}

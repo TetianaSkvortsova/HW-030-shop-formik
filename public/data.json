@@ -1,0 +1,528 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "name": "Processors (CPUs)",
+      "slug": "processors-cpus",
+      "products": [
+        {
+          "id": "CPU001",
+          "name": "Intel Core i9-14900K",
+          "price": 599.99,
+          "description": "The flagship unlocked desktop processor with 24 cores (8 P-cores, 16 E-cores) and 32 threads. Max turbo frequency up to 6.0 GHz. Ideal for extreme gaming and professional content creation. Requires a high-end cooling solution.",
+          "specs": [
+            "24 Cores / 32 Threads",
+            "6.0 GHz Max Turbo",
+            "LGA 1700 Socket"
+          ],
+          "category_id": 1
+        },
+        {
+          "id": "CPU002",
+          "name": "AMD Ryzen 7 7800X3D",
+          "price": 369.00,
+          "description": "A high-performance gaming CPU featuring **AMD 3D V-Cache Technology** for massive L3 cache (96MB). This processor offers the best gaming performance per dollar and is built on the modern AM5 platform.",
+          "specs": [
+            "8 Cores / 16 Threads",
+            "5.0 GHz Max Boost",
+            "AM5 Socket",
+            "96MB L3 Cache"
+          ],
+          "category_id": 1
+        },
+        {
+          "id": "CPU003",
+          "name": "Intel Core i5-13600K",
+          "price": 319.99,
+          "description": "A powerful mid-to-high-range CPU with an excellent balance of performance for both gaming and multitasking. Features 14 cores (6 P-cores, 8 E-cores) and is a superb value for most PC builds.",
+          "specs": [
+            "14 Cores / 20 Threads",
+            "5.1 GHz Max Turbo",
+            "Unlocked for Overclocking"
+          ],
+          "category_id": 1
+        },
+        {
+          "id": "CPU004",
+          "name": "AMD Ryzen 5 5600X",
+          "price": 149.99,
+          "description": "A budget-friendly 6-core processor that still delivers solid gaming performance on the reliable AM4 platform. Great for first-time builders and e-sports enthusiasts. Includes the Wraith Stealth cooler.",
+          "specs": [
+            "6 Cores / 12 Threads",
+            "4.6 GHz Max Boost",
+            "AM4 Socket"
+          ],
+          "category_id": 1
+        },
+        {
+          "id": "CPU005",
+          "name": "Intel Core i3-14100",
+          "price": 129.50,
+          "description": "An entry-level 4-core, 8-thread processor offering fast single-core performance suitable for office tasks, web browsing, and casual gaming. A reliable choice for simple, low-power systems.",
+          "specs": [
+            "4 Cores / 8 Threads",
+            "4.7 GHz Max Turbo",
+            "Integrated Graphics"
+          ],
+          "category_id": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Graphics Cards (GPUs)",
+      "slug": "graphics-cards-gpus",
+      "products": [
+        {
+          "id": "GPU001",
+          "name": "NVIDIA GeForce RTX 4090",
+          "price": 1599.00,
+          "description": "The ultimate gaming GPU, built with the Ada Lovelace architecture. Experience unprecedented performance in 4K resolution, ultra-low latency, and enhanced ray tracing capabilities with DLSS 3.",
+          "specs": [
+            "24GB GDDR6X VRAM",
+            "3rd Gen Ray Tracing Cores",
+            "DLSS 3 Support"
+          ],
+          "category_id": 2
+        },
+        {
+          "id": "GPU002",
+          "name": "AMD Radeon RX 7900 XT",
+          "price": 899.00,
+          "description": "A high-end GPU designed for 4K gaming with an emphasis on raw rasterization performance. Features the new AMD RDNA 3 architecture and 20GB of high-speed GDDR6 memory.",
+          "specs": [
+            "20GB GDDR6 VRAM",
+            "RDNA 3 Architecture",
+            "DisplayPort 2.1"
+          ],
+          "category_id": 2
+        },
+        {
+          "id": "GPU003",
+          "name": "NVIDIA GeForce RTX 4070 Ti",
+          "price": 799.00,
+          "description": "The sweet spot for high-refresh-rate 1440p gaming and a solid entry point into 4K. Excellent power efficiency and full support for NVIDIA's AI and streaming technologies.",
+          "specs": [
+            "12GB GDDR6X VRAM",
+            "High-efficiency Design",
+            "1440p King"
+          ],
+          "category_id": 2
+        },
+        {
+          "id": "GPU004",
+          "name": "NVIDIA GeForce RTX 3060",
+          "price": 329.00,
+          "description": "The most popular GPU for 1080p gaming, providing a fantastic blend of performance and affordability. Still supports Ray Tracing and DLSS (DLSS 2).",
+          "specs": [
+            "12GB GDDR6 VRAM",
+            "2nd Gen Ray Tracing",
+            "Great for 1080p"
+          ],
+          "category_id": 2
+        },
+        {
+          "id": "GPU005",
+          "name": "AMD Radeon RX 6600",
+          "price": 199.99,
+          "description": "An entry-level graphics card offering great price-to-performance for budget 1080p gaming. Very power efficient and requires minimal power supply overhead.",
+          "specs": [
+            "8GB GDDR6 VRAM",
+            "RDNA 2 Architecture",
+            "Low Power Draw"
+          ],
+          "category_id": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Memory (RAM)",
+      "slug": "memory-ram",
+      "products": [
+        {
+          "id": "RAM001",
+          "name": "Corsair Vengeance 32GB (2x16GB) DDR5-6000",
+          "price": 119.99,
+          "description": "High-speed, low-latency DDR5 memory kit optimized for the latest Intel and AMD platforms. Features a sleek, low-profile heat spreader for maximum compatibility with CPU coolers.",
+          "specs": [
+            "32GB Kit",
+            "DDR5-6000 CL30",
+            "XMP 3.0 Ready"
+          ],
+          "category_id": 3
+        },
+        {
+          "id": "RAM002",
+          "name": "G.SKILL Ripjaws 64GB (2x32GB) DDR4-3600",
+          "price": 149.99,
+          "description": "A high-capacity, high-frequency DDR4 kit perfect for video editing, virtualization, and heavy multitasking on older-generation platforms. Excellent reliability and performance.",
+          "specs": [
+            "64GB Kit",
+            "DDR4-3600 CL16",
+            "Desktop Memory"
+          ],
+          "category_id": 3
+        },
+        {
+          "id": "RAM003",
+          "name": "Crucial Pro 16GB (2x8GB) DDR5-5600 Laptop RAM",
+          "price": 65.50,
+          "description": "A reliable and powerful performance upgrade for modern laptops and Mini-PCs that utilize the SODIMM form factor. Simple plug-and-play installation.",
+          "specs": [
+            "16GB Kit",
+            "DDR5-5600 SODIMM",
+            "Laptop Memory"
+          ],
+          "category_id": 3
+        },
+        {
+          "id": "RAM004",
+          "name": "TeamGroup T-Force Delta 32GB (2x16GB) DDR5-7200",
+          "price": 199.99,
+          "description": "Extreme performance memory for enthusiasts and overclockers seeking the highest possible speeds. Features vibrant **RGB lighting** for a striking visual effect in showcase builds.",
+          "specs": [
+            "32GB Kit",
+            "DDR5-7200 CL34",
+            "Full RGB Illumination"
+          ],
+          "category_id": 3
+        },
+        {
+          "id": "RAM005",
+          "name": "Kingston Fury Impact 32GB (1x32GB) DDR4-3200",
+          "price": 85.00,
+          "description": "A single, high-density stick of SODIMM memory. Ideal for upgrading gaming laptops that have only one available memory slot, or for maximum capacity in a compact system.",
+          "specs": [
+            "32GB Stick",
+            "DDR4-3200 SODIMM",
+            "Single Rank"
+          ],
+          "category_id": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Storage (SSD/HDD)",
+      "slug": "storage-ssd-hdd",
+      "products": [
+        {
+          "id": "STRG001",
+          "name": "Samsung 990 Pro 2TB NVMe SSD",
+          "price": 179.99,
+          "description": "A cutting-edge Gen4 M.2 SSD for blisteringly fast load times and file transfers. Perfect for gaming consoles and high-performance desktop PCs. Sequential read speeds up to 7,450 MB/s.",
+          "specs": [
+            "2TB Capacity",
+            "PCIe Gen4 x4",
+            "7,450 MB/s Read"
+          ],
+          "category_id": 4
+        },
+        {
+          "id": "STRG002",
+          "name": "Western Digital Blue 4TB SATA HDD",
+          "price": 89.99,
+          "description": "A reliable, high-capacity mechanical hard drive for long-term data archival, video storage, and large game libraries where sheer speed is not the priority. Runs at 5400 RPM.",
+          "specs": [
+            "4TB Capacity",
+            "5400 RPM",
+            "3.5 inch SATA"
+          ],
+          "category_id": 4
+        },
+        {
+          "id": "STRG003",
+          "name": "Crucial P3 Plus 1TB NVMe SSD",
+          "price": 69.99,
+          "description": "A great value Gen4 SSD that offers speeds significantly faster than SATA at a competitive price point. Ideal as a primary boot drive for a new PC build.",
+          "specs": [
+            "1TB Capacity",
+            "PCIe Gen4 x4",
+            "5,000 MB/s Read"
+          ],
+          "category_id": 4
+        },
+        {
+          "id": "STRG004",
+          "name": "SanDisk Extreme Portable 1TB SSD (External)",
+          "price": 99.99,
+          "description": "A rugged, water-resistant external SSD for travelers and photographers. Provides fast transfer speeds via USB 3.2 Gen 2, offering excellent portability and protection for critical files.",
+          "specs": [
+            "1TB External",
+            "USB 3.2 Gen 2",
+            "IP65 Water Resistance"
+          ],
+          "category_id": 4
+        },
+        {
+          "id": "STRG005",
+          "name": "Samsung 870 EVO 500GB SATA SSD",
+          "price": 49.99,
+          "description": "The best-selling SATA III SSD, perfect for breathing new life into older laptops and desktops. Offers rock-solid reliability and significantly faster boot times than a traditional hard drive.",
+          "specs": [
+            "500GB Capacity",
+            "SATA III 2.5 inch",
+            "560 MB/s Read"
+          ],
+          "category_id": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Peripherals",
+      "slug": "peripherals",
+      "products": [
+        {
+          "id": "PERI001",
+          "name": "Logitech MX Master 3S Wireless Mouse",
+          "price": 99.00,
+          "description": "The definitive mouse for productivity and creative professionals. Features ultra-fast MagSpeed scrolling, 8000 DPI tracking on glass, and customizable gesture buttons.",
+          "specs": [
+            "8000 DPI Sensor",
+            "MagSpeed Scroll Wheel",
+            "USB-C Rechargeable"
+          ],
+          "category_id": 5
+        },
+        {
+          "id": "PERI002",
+          "name": "Corsair K100 RGB Mechanical Keyboard",
+          "price": 199.99,
+          "description": "A premium gaming keyboard featuring ultra-fast CORSAIR OPX optical-mechanical keyswitches and a durable aluminum frame. Includes dedicated media keys and a multi-function control wheel.",
+          "specs": [
+            "Optical Switches",
+            "RGB Backlighting",
+            "Aluminum Frame"
+          ],
+          "category_id": 5
+        },
+        {
+          "id": "PERI003",
+          "name": "Dell UltraSharp 27-inch 4K Monitor",
+          "price": 549.99,
+          "description": "A professional-grade 4K monitor with exceptional color accuracy (99% sRGB, 95% DCI-P3). Perfect for graphic design, video editing, and detailed work. Features a USB-C hub with 90W Power Delivery.",
+          "specs": [
+            "27-inch 4K UHD",
+            "IPS Panel",
+            "USB-C 90W PD"
+          ],
+          "category_id": 5
+        },
+        {
+          "id": "PERI004",
+          "name": "SteelSeries Arctis Nova Pro Wireless Headset",
+          "price": 349.99,
+          "description": "A premium multi-system gaming headset with simultaneous 2.4GHz and Bluetooth connectivity. Features hi-res audio drivers and an AI-powered noise-cancelling microphone.",
+          "specs": [
+            "Multi-System Connect",
+            "Active Noise Cancellation",
+            "Swappable Battery"
+          ],
+          "category_id": 5
+        },
+        {
+          "id": "PERI005",
+          "name": "Elgato Stream Deck",
+          "price": 149.99,
+          "description": "A customizable controller with 15 LCD keys that can launch actions, switch scenes, and control audio on the fly. Essential gear for streamers, podcasters, and productivity gurus.",
+          "specs": [
+            "15 LCD Keys",
+            "Customizable Actions",
+            "Streaming Controller"
+          ],
+          "category_id": 5
+        }
+      ]
+    }
+  ],
+  "cities": [
+    {
+      "value": "VIN",
+      "city": "Вінниця",
+      "storages": [
+        { "id": 1, "address": "вул. Соборна, 15 (Центральний)" },
+        { "id": 2, "address": "пр. Юності, 45" }
+      ]
+    },
+    {
+      "value": "LUTS",
+      "city": "Луцьк",
+      "storages": [
+        { "id": 1, "address": "вул. Лесі Українки, 10" },
+        { "id": 2, "address": "пр. Волі, 27" },
+        { "id": 3, "address": "вул. Конякіна, 14Б" }
+      ]
+    },
+    {
+      "value": "DNIP",
+      "city": "Дніпро",
+      "storages": [
+        { "id": 1, "address": "просп. Дмитра Яворницького, 50" },
+        { "id": 2, "address": "вул. Калинова, 87" },
+        { "id": 3, "address": "вул. Набережна Перемоги, 44" },
+        { "id": 4, "address": "пр. Слобожанський, 17" }
+      ]
+    },
+    {
+      "value": "DON",
+      "city": "Донецьк",
+      "storages": [
+        { "id": 1, "address": "пр. Миру, 9 (Головний)" }
+      ]
+    },
+    {
+      "value": "ZHIT",
+      "city": "Житомир",
+      "storages": [
+        { "id": 1, "address": "вул. Київська, 77" },
+        { "id": 2, "address": "майдан Соборний, 2" }
+      ]
+    },
+    {
+      "value": "ZAP",
+      "city": "Запоріжжя",
+      "storages": [
+        { "id": 1, "address": "пр. Соборний, 186" },
+        { "id": 2, "address": "вул. Перемоги, 90" },
+        { "id": 3, "address": "пр. Металургів, 12" }
+      ]
+    },
+    {
+      "value": "UZH",
+      "city": "Ужгород",
+      "storages": [
+        { "id": 1, "address": "пл. Корятовича, 2/1" }
+      ]
+    },
+    {
+      "value": "IF",
+      "city": "Івано-Франківськ",
+      "storages": [
+        { "id": 1, "address": "вул. Незалежності, 55" },
+        { "id": 2, "address": "вул. Івасюка, 20" }
+      ]
+    },
+    {
+      "value": "KV",
+      "city": "Київ",
+      "storages": [
+        { "id": 1, "address": "пр. Свободи, 26 (Оболонь)" },
+        { "id": 2, "address": "Хрещатик, 22 (Центр)" },
+        { "id": 3, "address": "вул. Хоткевича, 1А (Лівий берег)" },
+        { "id": 4, "address": "вул. Велика Васильківська, 72" },
+        { "id": 5, "address": "пр. Бажана, 14" }
+      ]
+    },
+    {
+      "value": "KRP",
+      "city": "Кропивницький",
+      "storages": [
+        { "id": 1, "address": "вул. Велика Перспективна, 48" }
+      ]
+    },
+    {
+      "value": "LV",
+      "city": "Львів",
+      "storages": [
+        { "id": 1, "address": "пр. Свободи, 28" },
+        { "id": 2, "address": "вул. Городоцька, 140" },
+        { "id": 3, "address": "вул. Шевченка, 10" }
+      ]
+    },
+    {
+      "value": "MK",
+      "city": "Миколаїв",
+      "storages": [
+        { "id": 1, "address": "пр. Центральний, 98" },
+        { "id": 2, "address": "вул. Потьомкінська, 45" }
+      ]
+    },
+    {
+      "value": "OD",
+      "city": "Одеса",
+      "storages": [
+        { "id": 1, "address": "вул. Дерибасівська, 16" },
+        { "id": 2, "address": "пр. Шевченка, 15" },
+        { "id": 3, "address": "вул. Балківська, 80" }
+      ]
+    },
+    {
+      "value": "PL",
+      "city": "Полтава",
+      "storages": [
+        { "id": 1, "address": "вул. Соборності, 32" }
+      ]
+    },
+    {
+      "value": "RV",
+      "city": "Рівне",
+      "storages": [
+        { "id": 1, "address": "вул. Соборна, 19" },
+        { "id": 2, "address": "вул. Київська, 40" }
+      ]
+    },
+    {
+      "value": "SM",
+      "city": "Суми",
+      "storages": [
+        { "id": 1, "address": "вул. Соборна, 55" }
+      ]
+    },
+    {
+      "value": "TP",
+      "city": "Тернопіль",
+      "storages": [
+        { "id": 1, "address": "вул. Руська, 22" },
+        { "id": 2, "address": "пр. Злуки, 10" }
+      ]
+    },
+    {
+      "value": "KHK",
+      "city": "Харків",
+      "storages": [
+        { "id": 1, "address": "вул. Сумська, 10" },
+        { "id": 2, "address": "пр. Науки, 12" },
+        { "id": 3, "address": "пр. Московський, 200" }
+      ]
+    },
+    {
+      "value": "KHR",
+      "city": "Херсон",
+      "storages": [
+        { "id": 1, "address": "пр. Ушакова, 40" }
+      ]
+    },
+    {
+      "value": "KHM",
+      "city": "Хмельницький",
+      "storages": [
+        { "id": 1, "address": "вул. Кам'янецька, 55" },
+        { "id": 2, "address": "вул. Проскурівська, 15" }
+      ]
+    },
+    {
+      "value": "CHRK",
+      "city": "Черкаси",
+      "storages": [
+        { "id": 1, "address": "бульвар Шевченка, 200" }
+      ]
+    },
+    {
+      "value": "CHRN",
+      "city": "Чернігів",
+      "storages": [
+        { "id": 1, "address": "пр. Миру, 55" },
+        { "id": 2, "address": "вул. Рокоссовського, 10" }
+      ]
+    },
+    {
+      "value": "CHRNV",
+      "city": "Чернівці",
+      "storages": [
+        { "id": 1, "address": "вул. Головна, 25" }
+      ]
+    }
+  ]
+}

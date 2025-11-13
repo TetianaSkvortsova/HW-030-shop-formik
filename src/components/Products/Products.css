@@ -1,0 +1,72 @@
+.products-container {
+    background-color: var(--background-dark);
+    padding: calc(var(--spacing-unit) * 1.5);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 992px) {
+    .products-container {
+        grid-area: products;
+    }
+}
+
+.products-container h1 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: calc(var(--spacing-unit) * 1.5);
+}
+
+.products-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: calc(var(--spacing-unit) * 1.5);
+}
+
+.products-container li {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: var(--border-radius);
+    padding: var(--spacing-unit);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+}
+
+.products-container li:before {
+    content: "🛍️";
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.products-container li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary-color);
+}
+
+.products-container li.active {
+    background-color: #7ed0ff;
+}
+
+.products-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
